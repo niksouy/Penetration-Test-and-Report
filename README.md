@@ -1,21 +1,40 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Penetration Test and Report Project (web applications, Linux Servers, and Windows machines)
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+For this project, I conducted a PenTest against Rekall's network infrastructure and scored all the vulnerabilities using the CVSS scoring system. I targeted their Apache web server, as well as their Windows and Linux servers. I categorized these vulnerabilities by considering both Exploitation Likelihood and Potential Impact. The purpose of this engagement was to assess the networks’ and systems’ security and identify potential security flaws by utilizing industry-accepted
+testing methodology and best practices  
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
+- <b>MITRE ATT&CK: choosing proper techniques to conduct the exploit</b> 
+- <b>OSINT Framework and Google: for Passive Reconnaissance</b>
+- <b>Shodan.io and Recon-ng: for Active Reconnaissance</b>
+- <b>Nmap and Zenmap: for scanning opened ports and services on targeted CIDR</b>
+- <b>SearchSploit and Exploit-DB: for choosing the exploit</b>
+- <b>Metasploit C2 Framework: for Active Reconnaissance</b>
+  
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Kali Linux and internet</b> 
 
+<h2>Assessment Objective</h2>
+The primary goal of this assessment was to analyze the security flaws present in Rekall’s
+web applications, networks, and systems. This assessment was conducted to identify exploitable
+vulnerabilities and provide actionable recommendations on how to remediate the vulnerabilities to
+provide a greater level of security for the environment.
+I used the proven vulnerability testing methodology to assess all relevant web applications,
+networks, and systems in scope.
+<br />
+<br />
+outlined objectives:
+<br />
+<img src="https://i.imgur.com/4nbUBI8.png" height="80%" width="80%" alt="Table 1: Defined Objectives"/>
+<br />
+<br />
+<br />
+<br />
 <h2>Program walk-through:</h2>
 
 <p align="center">
