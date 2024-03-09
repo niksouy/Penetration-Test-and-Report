@@ -178,15 +178,15 @@ to identify several vulnerabilities which include critical vulnerabilities which
 negative impact on the operations and reputation of Rekall.
 The penetration testing was performed in three stages, Web Applications, Linux environment and then
 Microsoft environment.
-During the assessment of the web applications it was discovered that there are vulnerabilities to XSS
+During the assessment of the web applications, it was discovered that there are vulnerabilities to XSS
 reflection, local file inclusion, XSS stored vulnerability, command injection and SQL injection
 vulnerabilities.
 <br />
 <br />
 
-- Exposed open source data
+- Exposed open-source data
 
-OSINT techniques reveal open source data is exposed. Additionally login credentials are insecure, and
+OSINT techniques reveal open source data is exposed. Additionally, login credentials are insecure, and
 stored in HTML source code. Efforts were able to discover the ‘WHOIS’ information for ‘totalrekall.xyz’
 using Open Source Intelligence Tools (OSINT). This information helped us with our testing by providing
 the IP Address of our target website.
@@ -194,14 +194,13 @@ the IP Address of our target website.
 - Reflected XSS Exploit (Flags 1, 2, 3, 5)
 
 Efforts focused on finding vulnerabilities in Rekall’s web application that could be exploited. Attempting to
-find any XSS vulnerabilities, resulting in successful implementation of a reflected XSS script on the
+find any XSS vulnerabilities, resulting in the successful implementation of a reflected XSS script on the
 ‘Welcome’ page, which created an alert.
 
-Next we continued our search for more reflected XSS scripts that could work across different pages on
-the web application. Our efforts discovered that our exploit was successful on the ‘VR Planner’ web page
-as well.
+Next, we searched for more reflected XSS scripts that could work across different pages on
+the web application. Our efforts discovered that our exploit was also successful on the ‘VR Planner’ web page.
 
-Another XSS vulnerability in the ‘comments’ page/section was found. This vulnerability is particularly
+Another XSS vulnerability was found in the ‘comments’ page/section. This vulnerability is particularly
 dangerous since a malicious actor could store harmful content on the host server.
 
 - Local File Inclusion Exploit: (Flag 6)
@@ -242,8 +241,8 @@ Rekall Corp Penetration Test Report
 Nessus scans were run for one of the host machines (192.168.13.12) found during our Zenmap scan and
 discovered a critical vulnerability for Apache Struts.
 Using Metasploit to search for vulnerabilities to exploit on the target machine (192.168.13.10), referring to
-the Zenmap scan done earlier. After testing several exploits, we discovered an ‘Apache Tomcat Remote
-Code Execution Vulnerability’ (CVE-2017-12617) and successfully exploited it to gain a Meterpreter
+the Zenmap scan was done earlier. After testing several exploits, we discovered an ‘Apache Tomcat Remote
+Code Execution Vulnerability (CVE-2017-12617) and successfully exploited it to gain a Meterpreter
 session.
 <br />
 <br />
@@ -311,6 +310,58 @@ test:</h2>
 <img src="https://i.imgur.com/fmWpbxe.png" height="80%" width="80%" />
 <br />
 <br />
+<h2>⬇️⬇️⬇️ Vulnerability Findings Linux OS</h2>
+<br />
+<br />
+<img src="https://i.imgur.com/oQtOncO.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/egNFIdh.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/ozra6fg.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/g821eKP.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/fFtLGGa.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/ARdQ810.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/e09irRL.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/6DxDTkq.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/QFiNrTK.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/74KTMpE.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/TCLOeab.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/eMRHktX.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/uQAxNda.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/MVj9vRJ.png" height="80%" width="80%" />
+<img src="" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/I86pyJY.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/cTTiTmB.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/VDrQCsM.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/XyM6bAU.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/6PGtulX.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/9Rp9bsH.png" height="80%" width="80%" />
+<br />
+<br />
+<h2>⬇️⬇️⬇️ Vulnerability Findings Windows OS</h2>
+<br />
+<br />
+
 
 </p>
 
