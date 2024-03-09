@@ -361,8 +361,46 @@ test:</h2>
 <h2>⬇️⬇️⬇️ Vulnerability Findings Windows OS</h2>
 <br />
 <br />
-
-
+<img src="https://i.imgur.com/ZgGpu8A.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/Ydky3kj.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/3oOYp41.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/kEB2vH5.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/qvXy9yv.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/qvXy9yv.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/nOM9D8r.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/0TsIepr.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/yMBrIY1.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/ehtmejY.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/HWWhcnx.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/COTFMty.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/NbFciXy.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/w1a8edE.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/cFOlCug.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/nFg8Jnb.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/yASkDd6.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/OZ8rrD2.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/KGrQjrc.png" height="80%" width="80%" />
+<br />
+<br />
+<img src="https://i.imgur.com/ruYXoBa.png" height="80%" width="80%" />
+<br />
+<br />
 </p>
 
 <!--
